@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ItemCard from './ItemCard';
 
-const Book = ({ cart=[], onAddToCart, onRemoveFromCart }) => {
+const Books = ({ cart=[], onAddToCart, onRemoveFromCart }) => {
   const [books, setBooks] = useState([]);
 
   // Modify
@@ -24,4 +24,4 @@ const Book = ({ cart=[], onAddToCart, onRemoveFromCart }) => {
   );
 };
 
-export default Book;
+export default Books;

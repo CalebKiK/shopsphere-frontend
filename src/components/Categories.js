@@ -3,7 +3,7 @@ import '../styles/Categories.css';
 import ElectronicsSection from '../ElectronicsSection';
 import ShoesSection from '../ShoesSection';
 import Artwork from './Artwork';
-import Book from './Book';
+import Books from './Books';
 import ClothesSection from './ClothesSection'
 
 
@@ -26,7 +26,7 @@ function Categories()   {
       case "Artwork":
         return <Artwork />;
       case "Books":
-        return <Book />;
+        return <Books />;
       default:
         return <p></p>;
     }
