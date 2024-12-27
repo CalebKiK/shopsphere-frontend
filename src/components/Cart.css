@@ -1,0 +1,128 @@
+.cart-container{
+    background-color: #F8F0E8;
+    padding: 15px;
+    margin: 0px 390px 30px;
+    border-radius: 20px;
+  }
+  
+  .cart-container h3{
+    margin: 50px 0px 50px;
+    font-size: 17px;
+  }
+  
+  .cart-items{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .checkout-btn{
+    padding: 10px 30px;
+    border-radius: 25px;
+    border-color: #C15F08;
+    border-width: 2px;
+    border: 1px solid;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgb(216, 192, 192);
+    color: black;
+  }
+  
+  .checkout-btn:hover{
+    background-color: #fbe2cd;
+    transition: 0.5s;
+  }
+  
+  .in-cart-card{
+    height: 240px;
+    background-color: #ffffff;
+    width: 480px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .card-details{
+    display: flex;
+  }
+  
+  .card-details img{
+    max-width: 200px;
+    max-height: 200px;
+  }
+  
+  .card-description{
+    text-align: left;
+    margin-left: 20px;
+    width: 300px;
+  }
+  
+  .card-description h4{
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+  .card-description p{
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  .item-quantity-cart{
+    display: flex;
+    height: 25px;
+    align-items: center;
+  }
+  
+  .item-quantity-cart p{
+    margin-right: 10px;
+  }
+  
+  .subtract-quantity, .add-quantity{
+    height: 30px;
+    width: 40px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 17px;
+    color: black;
+    background-color: rgb(232, 232, 232);
+    border: 1px solid;
+  }
+  
+  .item-quantity-cart input{
+    width: 50px;
+    text-align: right;
+    margin: 0px 5px;
+  }
+  
+  .remove-from-cart-btn{
+    margin: 20px 0px 0px 20px;
+    width: 180px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid;
+    color: black;
+    font-size: 15px;
+  }
+  
+  .remove-from-cart-btn:hover{
+    background-color: rgb(218, 237, 254);
+    transition: 0.5s;
+  }
+  
+  .cart-list-footer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 40px 300px 10px;
+  }
+  
+  .cart-list-footer h3{
+    margin-right: 400px;
+  }
+  
+  @media (max-width: 450px) {
+    .cart-container{
+      padding: 10px;
+      margin: 0px 10px 30px;
+      border-radius: 20px;
+    }
+  }

@@ -1,0 +1,89 @@
+/* Card Styles */
+.item-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover Effect for Item Cards */
+  .item-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image Styles */
+  .item-card img {
+    height: 140px;
+    max-width: 180px;
+    border-radius: 10px; /* Rounded corners for images */
+  }
+  
+  /* Button Styles */
+  .item-card button {
+    color: #c15f08;
+    text-decoration: underline;
+    border: none;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+    text-align: left;  
+    display: block;   
+    width: fit-content; 
+    margin-left: -10px;  
+    transition: color 0.3s ease;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  /* Button Hover Effect */
+  .item-card button:hover {
+    color: #c15f08;
+    background-color: #ffe4cc;
+    transition: 0.5s ease-in;
+    padding: 10px 20px;
+  }
+  
+  /* Text Styles */
+  .item-card p {
+    margin-right: 10px;
+    margin-top: 0px;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .item-card h4 {
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 700;
+    text-align: left; 
+  }
+
+  @media (max-width: 450px) {
+    .item-card {
+      padding: 10px;
+      border-radius: 10px;
+      width: 160px;
+    }
+    
+    /* Image Styles */
+    .item-card img {
+      height: 130px;
+      min-width: 120px;
+      max-width: 140px;
+    }
+    
+    /* Button Styles */
+    .item-card button {
+      font-size: 14px;
+    }
+    
+    .item-card button:hover {
+      padding: 5px 10px;
+    }
+    
+    .item-card h4 {
+      font-weight: 600; 
+    }
+  }

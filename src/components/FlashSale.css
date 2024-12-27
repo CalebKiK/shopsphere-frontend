@@ -1,0 +1,264 @@
+
+/* Containers */
+.flash-sale-container, .hot-in-category-container {
+    background-color: #F8F0E8;
+    border-radius: 20px;
+    padding: 40px 20px; 
+    margin: 30px auto;
+    max-width: 1200px;
+    text-align: left;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Items Grid */
+  .flash-sale-items, .hot-in-category-items {
+    display: grid; /* Change to grid layout */
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px; 
+    text-align: left;
+  }
+  
+  /* Header Styles */
+  .flash-sale-header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0 0 20px 0; /* Margin adjusted */
+  }
+  
+  .flash-sale-header h2, 
+  .hot-in-category-container h2 {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  .hot-in-category-container h2 {
+    margin-bottom: 30px;
+  }
+  
+  .flash-sale-header p{
+    margin-left: 60px;
+    padding-top: -10px;
+  }
+  
+  .hot-in-category-container h2 {
+    margin-left: 0; /* Centered title */
+  }
+  
+  .flashsale-timer{
+    display: flex;
+    align-items: baseline;
+  }
+  
+  /* Timer Styles */
+  .timer {
+    margin-left: 5px;
+    background-color: #e8edb2;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: 500;
+  }
+  
+  .flash-sale-card, .hot-in-category-card {
+    background-color: #ffffff;
+    padding: 20px; 
+    height: 380px; 
+    text-align: left;
+    border-radius: 15px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth hover effect */
+  }
+  
+  /* Hover Effect for Cards */
+  .flash-sale-card:hover, .hot-in-category-card:hover {
+    transform: translateY(-10px); /* Move card up on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+    z-index: 1;
+  }
+  
+  /* Image Styles */
+  .flash-sale-card img, .hot-in-category-card img {
+    height: 160px;
+    max-width: 160px;
+    border-radius: 10px; 
+    
+  }
+  
+  .hot-in-category-card p{
+    margin-top: -5px;
+    text-align: left;
+  }
+  
+  /* Text and Price Styles */
+  .flash-sale-card h4, 
+  .hot-in-category-card h4 {
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 700;
+    text-align: left;
+  }
+  
+  .flash-sale-prices, .hot-in-category-prices{
+    display: flex;
+    margin-top: 5px;
+    color: #C15F08;
+  
+  }
+  
+  .flash-sale-prices p, .hot-in-category-prices p{
+    margin: 5px 10px 5px 0px;
+    color: black;
+  }
+  
+  .flash-sale-prices span, .hot-in-category-prices span{
+    color: gray;
+    text-decoration: line-through;
+    font-size: 15px;
+    margin-left: 20px;
+  }
+  
+  .items_available p{
+    margin-top: -5px;
+    font-size: 13px;
+    text-align: left;
+    align-items: end;
+  }
+  
+  /* Button Styles */
+  .flash-sale-card button, 
+  .hot-in-category-card button {
+    color: #C15F08;
+    text-decoration: underline;
+    border: none;
+    background-color: #ffffff;
+    margin: 5px 0px;
+    width: fit-content;
+    text-align: left;
+    margin-left: -10px;  
+    transition: color 0.3s ease;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .flash-sale-card button:hover, 
+  .hot-in-category-card button:hover {
+    color: #c15f08;
+      background-color: #ffe4cc;
+      transition: 0.5s ease-in;
+      padding: 10px 20px;
+  }
+  
+  @media (max-width: 1024px) {
+    .flash-sale-items, .hot-in-category-items {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .flash-sale-items, .hot-in-category-items {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .flash-sale-container, .hot-in-category-container {
+      padding: 40px 10px; 
+      margin: 30px 10px;
+    }
+    .flash-sale-items, .hot-in-category-items {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .flash-sale-header h2{
+      width: 100%;
+      margin-left: 10px;
+    }
+  
+    .flashsale-timer{
+      display: block;
+      margin-left: -160px;
+      margin-top: -30px;
+    }
+  
+    .timer {
+      margin-left: -30px;
+      margin-top: -15px;
+      font-size: 14px;
+    }
+  
+    .hot-in-category-container h2 {
+      margin-bottom: 30px;
+      margin-left: 10px;
+    }
+  
+    .flash-sale-header p{
+      margin-left: -120px;
+      padding-top: -10px;
+    }
+  
+    .hot-in-category-card {
+      padding: 10px; 
+      height: 320px; 
+      width: 160px;
+      border-radius: 10px; 
+    }
+  
+    .flash-sale-card {
+      padding: 10px; 
+      height: 340px;
+      width: 160px;
+      border-radius: 10px; 
+    }
+    
+    /* Image Styles */
+    .flash-sale-card img, .hot-in-category-card img {
+      height: 130px;
+      min-width: 120px;
+      max-width: 140px;
+      
+    }
+    
+    /* Text and Price Styles */
+    .flash-sale-card h4, .hot-in-category-card h4 {
+      font-weight: 600;
+    }
+    
+    .flash-sale-prices, .hot-in-category-prices{
+      display: block;
+      margin-top: 0px;
+      color: #C15F08;
+    
+    }
+    
+    .flash-sale-prices p, .hot-in-category-prices p{
+      margin: 5px 10px 5px 0px;
+      color: black;
+    }
+    
+    .flash-sale-prices span, .hot-in-category-prices span{
+      font-size: 15px;
+      margin-left: 0px;
+    }
+    
+    .items_available p{
+      margin-top: -5px;
+      font-size: 13px;
+      text-align: left;
+      align-items: end;
+    }
+    
+    /* Button Styles */
+    .flash-sale-card button, .hot-in-category-card button {
+      font-size: 14px;
+    }
+    
+    .flash-sale-card button:hover, .hot-in-category-card button:hover {
+      padding: 5px 10px;
+    }
+  }
+    

@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# GROUP 3⚙️: E-COMMERCE WEBSITE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# About Deployment
 
-## Available Scripts
+. Deployed Website: shopspheree.netlify.app
 
-In the project directory, you can run:
+## Project Overview
+This project is an e-commerce website designed to sell a variety of goods, including books, artwork, shoes, and electronics. The website provides a user-friendly platform where customers can browse through different product categories, search for specific items, add them to a cart, and proceed to checkout. It also features an admin interface for managing products efficiently.
 
-### `npm start`
+## Problem Statement
+Many e-commerce websites today focus on a specific type of product, making it difficult for users to find a variety of goods under one roof. Additionally, some of these websites are not user-friendly, leading to a frustrating shopping experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Solution
+Our solution is to create a well-structured and user-friendly e-commerce website that caters to users looking for a wide range of products in one place. The website allows users to easily navigate between categories, search for specific products, add items to a cart, and complete their purchases seamlessly.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## MVP Features
+1. User Authentication: Users can sign up, log in, and manage their accounts securely.
+2. Admin Product Management: Admins can create, read, update, and delete products displayed on the website.
+3. Product Selection and Cart Management: Users can browse products, select items they want to purchase, and add them to a shopping cart.
+4. Checkout Process: Users can proceed to checkout and complete their purchase.
+5. Search Functionality: Users can easily search for products across different categories.
 
-### `npm test`
+## Technical Stack
+- HTML: Markup language for structuring the web pages.
+- CSS: Stylesheet language for designing the user interface.
+- JavaScript: Programming language for adding interactivity to the website.
+- React: JavaScript library for building the user interface.
+- Bootstrap: Front-end framework for responsive design.
+- JSON Server: Used for simulating a REST API with a local database (`db.json`).
+- Figma: Design tool used for creating wireframes and prototypes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation and Setup
+1. Clone the Repository:
+   
+   git clone https://github.com/OsirOsir/Group-3-end-Phase_2-Project-.git
 
-### `npm run build`
+2. Navigate to the Project Directory:
+   
+   cd shopsphere_e_commerce_website
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install Dependencies:
+   
+   npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Start the JSON Server:
+   
+   npm run json-server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Start the Development Server:
+   
+   npm start
 
-### `npm run eject`
+6. Open your browser and navigate to `http://localhost:8001` to view the website.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
+- User Authentication: Sign up and log in to your account.
+- Browse Products: Navigate through different categories and view product details.
+- Add to Cart: Select products and add them to your shopping cart.
+- Search Products: Use the search bar to find specific products.
+- Checkout: Proceed to checkout when you're ready to complete your purchase.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Deployment
+- Backend Server: [server-db-json.onrender.com](https://server-db-json.onrender.com)
+- Deployed Website: [shopspheree.netlify.app](https://shopspheree.netlify.app)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Future Enhancements
+- Payment Gateway Integration: Add support for online payments.
+- User Reviews and Ratings: Allow users to leave reviews and rate products.
+- Wishlist Functionality: Enable users to save items for later.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributing
+We welcome contributions! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch:
+   
+   git checkout -b feature-branch-name
 
-## Learn More
+3. Commit your changes:
+   
+   git commit -m 'Add some feature'
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Push to the branch:
+   
+   git push origin feature-branch-name
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Open a pull request.
 
-### Code Splitting
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+For any inquiries, please contact us.
