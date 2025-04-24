@@ -24,14 +24,14 @@ function App() {
   const [totalAmount, setTotalAmount] = useState(0); 
 
   useEffect(() => {
-      fetch("https://shopshere-backend.onrender.com/api/flashsale")
+      fetch("http://127.0.0.1:5555/api/flashsale")
         .then(response => response.json())
         .then((items) => setFlashSaleItems(items));
     }, []);
   
     // Fetch hot items in categories
     useEffect(() => {
-      fetch("https://shopshere-backend.onrender.com/api/hot_in_category")
+      fetch("http://127.0.0.1:5555/api/hot_in_category")
         .then(response => response.json())
         .then((items) => setHotItems(items));
     }, []);

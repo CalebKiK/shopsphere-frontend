@@ -7,7 +7,7 @@ const Artwork = ({ cart=[], onAddToCart, onRemoveFromCart }) => {
 
   // Modify
   useEffect(() => {
-    fetch('https://shopshere-backend.onrender.com/api/artwork')
+    fetch('http://127.0.0.1:5555/api/artwork')
       .then(response => response.json())
       .then(data => setArtworks(data));
   }, []);

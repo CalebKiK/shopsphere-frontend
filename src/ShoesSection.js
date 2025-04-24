@@ -10,7 +10,8 @@ const ShoesSection = ({ cart=[], onAddToCart, onRemoveFromCart }) => {
 
   // Modify
   useEffect(() => {
-    fetch('https://shopshere-backend.onrender.com/api/shoes')
+    // fetch('https://shopshere-backend.onrender.com/api/shoes')
+    fetch('http://127.0.0.1:5555/api/shoes')
       .then(response => response.json())
       .then(data => setShoesData(data))
       .catch(error => console.error('Error fetching data:', error));

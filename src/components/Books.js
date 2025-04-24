@@ -6,7 +6,7 @@ const Books = ({ cart=[], onAddToCart, onRemoveFromCart }) => {
 
   // Modify
   useEffect(() => {
-    fetch('https://shopshere-backend.onrender.com/api/books')
+    fetch('http://127.0.0.1:5555/api/books')
       .then(response => response.json())
       .then(data => setBooks(data));
   }, []);
